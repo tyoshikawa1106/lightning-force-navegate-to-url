@@ -1,0 +1,10 @@
+<aura:component implements="force:appHostable">
+    <div id="aura-page">
+        <div class="container">
+            <ui:button label="gotoURL" press="{!c.gotoURL}" />
+        </div>
+        <div class="container">
+            <ui:button label="navigate" press="{!c.navigate}" />
+        </div>
+    </div>
+</aura:component>
